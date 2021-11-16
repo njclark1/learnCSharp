@@ -1,0 +1,13 @@
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.deps.json
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.json
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.dev.json
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.pdb
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.csproj.AssemblyReference.cache
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfo.cs
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.pdb
+/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.genruntimeconfig.cache
