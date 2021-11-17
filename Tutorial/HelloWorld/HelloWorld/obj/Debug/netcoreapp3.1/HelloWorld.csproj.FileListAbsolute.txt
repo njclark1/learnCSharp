@@ -11,3 +11,17 @@
 /Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.dll
 /Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.pdb
 /Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.genruntimeconfig.cache
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.exe
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.deps.json
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.json
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.dev.json
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.dll
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.pdb
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfo.cs
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.dll
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.pdb
+C:\Users\Nick\Source\Repos\njclark1\learnCSharp\Tutorial\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.genruntimeconfig.cache

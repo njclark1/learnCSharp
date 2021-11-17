@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+oHPTgjA50XJgbgETt7PbtacPTtXidcJKI5DDYnNI8N7ZEdZgpzE0M5EqWz1JO00mfHn0eBK4FcWXYK+uB/XgA==",
+  "dgSpecHash": "lS5gAZ6N9h+aIbX66OU9P5T1Pid9EEMpAgqBoEYhcOlU9AUsMtIAtrOV9qtGCDBSfqHc50UW/Zzo5IluQXEQWw==",
   "success": true,
-  "projectFilePath": "/Users/nick/repos/learnCSharp/Tutorial/HelloWorld/HelloWorld/HelloWorld.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Nick\\Source\\Repos\\njclark1\\learnCSharp\\Tutorial\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nick\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\Nick\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Nick\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Nick\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
