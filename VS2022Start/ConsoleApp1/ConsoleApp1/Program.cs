@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace ConsoleApp1 //group project together
 {
     class Program
     {
@@ -11,18 +11,20 @@ namespace HelloWorld
             int stringArrayLength = stringArray.Length;
 
             //output to user
-            Console.WriteLine("Hello World!");
-            Console.WriteLine(stringArrayLength);
             myPrintFunct(stringArray, stringArrayLength);
-
+            Console.WriteLine("What's your line?: ");
+            string myLine = Console.ReadLine();
+            Console.WriteLine($"Your line is {myLine}");
         }
+
+        //function to print array
         static void myPrintFunct(string[] stringArray, int stringArrayLength)
         {
-            //logic
+            //loop through array printing each item
             for (int i = 0; i < stringArrayLength; i++)
             {
                 Console.WriteLine(stringArray[i]);
             }
         }
     }
-}
+}  

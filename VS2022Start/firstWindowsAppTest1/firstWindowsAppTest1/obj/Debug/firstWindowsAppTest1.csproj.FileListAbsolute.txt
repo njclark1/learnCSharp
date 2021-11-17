@@ -1,0 +1,11 @@
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\bin\Debug\firstWindowsAppTest1.exe.config
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\bin\Debug\firstWindowsAppTest1.exe
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\bin\Debug\firstWindowsAppTest1.pdb
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.Form1.resources
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.Properties.Resources.resources
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.csproj.GenerateResource.cache
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.csproj.CoreCompileInputs.cache
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.exe
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.pdb
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\firstWindowsAppTest1\firstWindowsAppTest1\obj\Debug\firstWindowsAppTest1.csproj.AssemblyReference.cache
