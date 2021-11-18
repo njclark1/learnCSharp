@@ -1,0 +1,11 @@
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\bin\Release\HomeManager.exe.config
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\bin\Release\HomeManager.exe
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\bin\Release\HomeManager.pdb
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.login.resources
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.Properties.Resources.resources
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.csproj.GenerateResource.cache
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.csproj.CoreCompileInputs.cache
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.exe
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.pdb
+C:\Users\Nick\source\repos\njclark1\learnCSharp\VS2022Start\HomeManager\HomeManager\obj\Release\HomeManager.csproj.AssemblyReference.cache
