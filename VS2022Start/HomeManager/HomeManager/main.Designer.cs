@@ -57,13 +57,13 @@
             this.toDo.Location = new System.Drawing.Point(141, 26);
             this.toDo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.toDo.Name = "toDo";
-            this.toDo.Size = new System.Drawing.Size(369, 769);
+            this.toDo.Size = new System.Drawing.Size(414, 650);
             this.toDo.TabIndex = 1;
             this.toDo.ThreeDCheckBoxes = true;
             // 
             // newToDo
             // 
-            this.newToDo.Location = new System.Drawing.Point(540, 26);
+            this.newToDo.Location = new System.Drawing.Point(590, 26);
             this.newToDo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.newToDo.Name = "newToDo";
             this.newToDo.Size = new System.Drawing.Size(132, 22);
@@ -71,7 +71,7 @@
             // 
             // toDoSubmit
             // 
-            this.toDoSubmit.Location = new System.Drawing.Point(540, 58);
+            this.toDoSubmit.Location = new System.Drawing.Point(590, 58);
             this.toDoSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.toDoSubmit.Name = "toDoSubmit";
             this.toDoSubmit.Size = new System.Drawing.Size(133, 43);
@@ -82,7 +82,7 @@
             // 
             // deleteSelectedToDo
             // 
-            this.deleteSelectedToDo.Location = new System.Drawing.Point(540, 258);
+            this.deleteSelectedToDo.Location = new System.Drawing.Point(589, 176);
             this.deleteSelectedToDo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.deleteSelectedToDo.Name = "deleteSelectedToDo";
             this.deleteSelectedToDo.Size = new System.Drawing.Size(133, 43);
@@ -93,7 +93,7 @@
             // 
             // deleteSelectedGrocery
             // 
-            this.deleteSelectedGrocery.Location = new System.Drawing.Point(1137, 258);
+            this.deleteSelectedGrocery.Location = new System.Drawing.Point(1233, 176);
             this.deleteSelectedGrocery.Margin = new System.Windows.Forms.Padding(4);
             this.deleteSelectedGrocery.Name = "deleteSelectedGrocery";
             this.deleteSelectedGrocery.Size = new System.Drawing.Size(133, 43);
@@ -104,7 +104,7 @@
             // 
             // grocerySubmit
             // 
-            this.grocerySubmit.Location = new System.Drawing.Point(1137, 58);
+            this.grocerySubmit.Location = new System.Drawing.Point(1234, 58);
             this.grocerySubmit.Margin = new System.Windows.Forms.Padding(4);
             this.grocerySubmit.Name = "grocerySubmit";
             this.grocerySubmit.Size = new System.Drawing.Size(133, 43);
@@ -115,7 +115,7 @@
             // 
             // newGrocery
             // 
-            this.newGrocery.Location = new System.Drawing.Point(1137, 26);
+            this.newGrocery.Location = new System.Drawing.Point(1234, 26);
             this.newGrocery.Margin = new System.Windows.Forms.Padding(4);
             this.newGrocery.Name = "newGrocery";
             this.newGrocery.Size = new System.Drawing.Size(132, 22);
@@ -125,10 +125,10 @@
             // 
             this.groceryList.CheckOnClick = true;
             this.groceryList.FormattingEnabled = true;
-            this.groceryList.Location = new System.Drawing.Point(734, 26);
+            this.groceryList.Location = new System.Drawing.Point(780, 26);
             this.groceryList.Margin = new System.Windows.Forms.Padding(4);
             this.groceryList.Name = "groceryList";
-            this.groceryList.Size = new System.Drawing.Size(369, 769);
+            this.groceryList.Size = new System.Drawing.Size(413, 650);
             this.groceryList.TabIndex = 5;
             this.groceryList.ThreeDCheckBoxes = true;
             // 
@@ -136,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1335, 828);
+            this.ClientSize = new System.Drawing.Size(1424, 899);
             this.Controls.Add(this.deleteSelectedGrocery);
             this.Controls.Add(this.grocerySubmit);
             this.Controls.Add(this.newGrocery);
@@ -146,7 +146,11 @@
             this.Controls.Add(this.newToDo);
             this.Controls.Add(this.toDo);
             this.Controls.Add(this.passwords);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1442, 946);
+            this.MinimumSize = new System.Drawing.Size(1442, 946);
             this.Name = "main";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.main_Load);
