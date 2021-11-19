@@ -27,7 +27,7 @@ namespace HomeManager
             string correctPassword = "pass";
             string givenUsername = usernameBox.Text;
             string givenPassword = passwordBox.Text;   
-            if (givenUsername == correctUsername && givenPassword == correctPassword)
+            if (givenUsername != correctUsername && givenPassword != correctPassword)
             {
                 return true;
             }
