@@ -37,6 +37,8 @@
             this.grocerySubmit = new System.Windows.Forms.Button();
             this.newGrocery = new System.Windows.Forms.TextBox();
             this.groceryList = new System.Windows.Forms.CheckedListBox();
+            this.toDoLabel = new System.Windows.Forms.TextBox();
+            this.groceryListLabel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // passwords
@@ -54,7 +56,7 @@
             // 
             this.toDo.CheckOnClick = true;
             this.toDo.FormattingEnabled = true;
-            this.toDo.Location = new System.Drawing.Point(141, 26);
+            this.toDo.Location = new System.Drawing.Point(141, 43);
             this.toDo.Margin = new System.Windows.Forms.Padding(4);
             this.toDo.Name = "toDo";
             this.toDo.Size = new System.Drawing.Size(414, 650);
@@ -125,18 +127,42 @@
             // 
             this.groceryList.CheckOnClick = true;
             this.groceryList.FormattingEnabled = true;
-            this.groceryList.Location = new System.Drawing.Point(780, 26);
+            this.groceryList.Location = new System.Drawing.Point(776, 43);
             this.groceryList.Margin = new System.Windows.Forms.Padding(4);
             this.groceryList.Name = "groceryList";
             this.groceryList.Size = new System.Drawing.Size(413, 650);
             this.groceryList.TabIndex = 5;
             this.groceryList.ThreeDCheckBoxes = true;
             // 
+            // toDoLabel
+            // 
+            this.toDoLabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.toDoLabel.Location = new System.Drawing.Point(295, 13);
+            this.toDoLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.toDoLabel.Name = "toDoLabel";
+            this.toDoLabel.Size = new System.Drawing.Size(132, 15);
+            this.toDoLabel.TabIndex = 9;
+            this.toDoLabel.Text = "To-Do List";
+            this.toDoLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // groceryListLabel
+            // 
+            this.groceryListLabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.groceryListLabel.Location = new System.Drawing.Point(930, 13);
+            this.groceryListLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.groceryListLabel.Name = "groceryListLabel";
+            this.groceryListLabel.Size = new System.Drawing.Size(132, 15);
+            this.groceryListLabel.TabIndex = 10;
+            this.groceryListLabel.Text = "Grocery List";
+            this.groceryListLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1424, 899);
+            this.ClientSize = new System.Drawing.Size(1139, 719);
+            this.Controls.Add(this.groceryListLabel);
+            this.Controls.Add(this.toDoLabel);
             this.Controls.Add(this.deleteSelectedGrocery);
             this.Controls.Add(this.grocerySubmit);
             this.Controls.Add(this.newGrocery);
@@ -170,5 +196,7 @@
         private System.Windows.Forms.Button grocerySubmit;
         private System.Windows.Forms.TextBox newGrocery;
         private System.Windows.Forms.CheckedListBox groceryList;
+        private System.Windows.Forms.TextBox toDoLabel;
+        private System.Windows.Forms.TextBox groceryListLabel;
     }
 }
