@@ -29,16 +29,18 @@
         private void InitializeComponent()
         {
             this.backToLists = new System.Windows.Forms.Button();
-            this.passwordList = new System.Windows.Forms.ListView();
-            this.accountHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.usernameHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.passwordHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.account = new System.Windows.Forms.TextBox();
+            this.passwordInput = new System.Windows.Forms.TextBox();
+            this.password = new System.Windows.Forms.TextBox();
+            this.usernameInput = new System.Windows.Forms.TextBox();
+            this.username = new System.Windows.Forms.TextBox();
+            this.accountInput = new System.Windows.Forms.TextBox();
+            this.submitAccount = new System.Windows.Forms.Button();
+            this.deleteAccount = new System.Windows.Forms.Button();
+            this.accountList = new System.Windows.Forms.ListView();
+            this.accountsView = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.usernamesView = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.PasswordsView = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // backToLists
@@ -51,92 +53,122 @@
             this.backToLists.UseVisualStyleBackColor = true;
             this.backToLists.Click += new System.EventHandler(this.backToLists_Click);
             // 
-            // passwordList
+            // account
             // 
-            this.passwordList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.accountHeader,
-            this.usernameHeader,
-            this.passwordHeader});
-            this.passwordList.HideSelection = false;
-            this.passwordList.Location = new System.Drawing.Point(221, 12);
-            this.passwordList.Name = "passwordList";
-            this.passwordList.Size = new System.Drawing.Size(656, 1203);
-            this.passwordList.TabIndex = 1;
-            this.passwordList.UseCompatibleStateImageBehavior = false;
-            this.passwordList.View = System.Windows.Forms.View.Details;
+            this.account.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.account.Location = new System.Drawing.Point(971, 12);
+            this.account.Name = "account";
+            this.account.Size = new System.Drawing.Size(100, 15);
+            this.account.TabIndex = 2;
+            this.account.Text = "Account";
+            this.account.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // accountHeader
+            // passwordInput
             // 
-            this.accountHeader.Text = "Account";
-            this.accountHeader.Width = 179;
+            this.passwordInput.Location = new System.Drawing.Point(914, 198);
+            this.passwordInput.Name = "passwordInput";
+            this.passwordInput.Size = new System.Drawing.Size(216, 22);
+            this.passwordInput.TabIndex = 9;
             // 
-            // usernameHeader
+            // password
             // 
-            this.usernameHeader.Text = "Username";
-            this.usernameHeader.Width = 215;
+            this.password.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.password.Location = new System.Drawing.Point(971, 177);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(100, 15);
+            this.password.TabIndex = 4;
+            this.password.Text = "Password";
+            this.password.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // passwordHeader
+            // usernameInput
             // 
-            this.passwordHeader.Text = "Password";
-            this.passwordHeader.Width = 259;
+            this.usernameInput.Location = new System.Drawing.Point(914, 115);
+            this.usernameInput.Name = "usernameInput";
+            this.usernameInput.Size = new System.Drawing.Size(216, 22);
+            this.usernameInput.TabIndex = 8;
             // 
-            // textBox1
+            // username
             // 
-            this.textBox1.Location = new System.Drawing.Point(1049, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 2;
+            this.username.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.username.Location = new System.Drawing.Point(971, 94);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(100, 15);
+            this.username.TabIndex = 6;
+            this.username.Text = "Username";
+            this.username.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // accountInput
             // 
-            this.textBox2.Location = new System.Drawing.Point(1049, 479);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 3;
+            this.accountInput.Location = new System.Drawing.Point(914, 40);
+            this.accountInput.Name = "accountInput";
+            this.accountInput.Size = new System.Drawing.Size(216, 22);
+            this.accountInput.TabIndex = 7;
             // 
-            // textBox3
+            // submitAccount
             // 
-            this.textBox3.Location = new System.Drawing.Point(1049, 396);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 4;
+            this.submitAccount.Location = new System.Drawing.Point(971, 269);
+            this.submitAccount.Name = "submitAccount";
+            this.submitAccount.Size = new System.Drawing.Size(100, 72);
+            this.submitAccount.TabIndex = 8;
+            this.submitAccount.Text = "submit";
+            this.submitAccount.UseVisualStyleBackColor = true;
+            this.submitAccount.Click += new System.EventHandler(this.submitAccount_Click);
             // 
-            // textBox4
+            // deleteAccount
             // 
-            this.textBox4.Location = new System.Drawing.Point(1049, 323);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 5;
+            this.deleteAccount.Location = new System.Drawing.Point(971, 674);
+            this.deleteAccount.Name = "deleteAccount";
+            this.deleteAccount.Size = new System.Drawing.Size(100, 81);
+            this.deleteAccount.TabIndex = 9;
+            this.deleteAccount.Text = "delete";
+            this.deleteAccount.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // accountList
             // 
-            this.textBox5.Location = new System.Drawing.Point(1049, 226);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 6;
+            this.accountList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.accountsView,
+            this.usernamesView,
+            this.PasswordsView});
+            this.accountList.HideSelection = false;
+            this.accountList.Location = new System.Drawing.Point(230, 12);
+            this.accountList.Name = "accountList";
+            this.accountList.Size = new System.Drawing.Size(633, 882);
+            this.accountList.TabIndex = 10;
+            this.accountList.UseCompatibleStateImageBehavior = false;
+            this.accountList.View = System.Windows.Forms.View.Details;
             // 
-            // textBox6
+            // accountsView
             // 
-            this.textBox6.Location = new System.Drawing.Point(1049, 118);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 7;
+            this.accountsView.Text = "Account";
+            this.accountsView.Width = 200;
+            // 
+            // usernamesView
+            // 
+            this.usernamesView.Text = "Username";
+            this.usernamesView.Width = 200;
+            // 
+            // PasswordsView
+            // 
+            this.PasswordsView.Text = "Password";
+            this.PasswordsView.Width = 200;
             // 
             // passwords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2380, 1238);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.passwordList);
+            this.ClientSize = new System.Drawing.Size(934, 784);
+            this.Controls.Add(this.accountList);
+            this.Controls.Add(this.deleteAccount);
+            this.Controls.Add(this.submitAccount);
+            this.Controls.Add(this.accountInput);
+            this.Controls.Add(this.username);
+            this.Controls.Add(this.usernameInput);
+            this.Controls.Add(this.password);
+            this.Controls.Add(this.passwordInput);
+            this.Controls.Add(this.account);
             this.Controls.Add(this.backToLists);
-            this.MaximumSize = new System.Drawing.Size(1918, 1028);
-            this.MinimumSize = new System.Drawing.Size(1918, 1028);
+            this.MaximumSize = new System.Drawing.Size(1186, 1147);
+            this.MinimumSize = new System.Drawing.Size(1186, 1028);
             this.Name = "passwords";
             this.Text = "passwords";
             this.Load += new System.EventHandler(this.passwords_Load);
@@ -148,15 +180,17 @@
         #endregion
 
         private System.Windows.Forms.Button backToLists;
-        private System.Windows.Forms.ListView passwordList;
-        private System.Windows.Forms.ColumnHeader accountHeader;
-        private System.Windows.Forms.ColumnHeader usernameHeader;
-        private System.Windows.Forms.ColumnHeader passwordHeader;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox account;
+        private System.Windows.Forms.TextBox passwordInput;
+        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox usernameInput;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox accountInput;
+        private System.Windows.Forms.Button submitAccount;
+        private System.Windows.Forms.Button deleteAccount;
+        private System.Windows.Forms.ListView accountList;
+        private System.Windows.Forms.ColumnHeader accountsView;
+        private System.Windows.Forms.ColumnHeader usernamesView;
+        private System.Windows.Forms.ColumnHeader PasswordsView;
     }
 }

@@ -37,10 +37,12 @@ namespace HomeManager
         {
             if (File.Exists("passwords.txt"))
             {
+
                 var getPasswordFile = File.ReadAllLines("passwords.txt");
                 foreach (var line in getPasswordFile)
                 {
-                    passwordList.Items.Add(line);
+                    
+                    accountList.Items.Add(line);
                 }
             }
         }//endinitpass
@@ -48,17 +50,31 @@ namespace HomeManager
         //write password list to file when called
         private void writePasswordFile()
         {
+            int count = accountList.Items.Count;
             System.IO.StreamWriter SaveFile = new System.IO.StreamWriter("passwords.txt");
-            foreach (var item in passwordList.Items)
+            for (int i = 0; i < count; i++)
             {
-                SaveFile.WriteLine(item.ToString());
+                SaveFile.WriteLine(accountList.Items[i].SubItems[0].Text);
+                SaveFile.WriteLine(accountList.Items[i].SubItems[1].Text);
+                SaveFile.WriteLine(accountList.Items[i].SubItems[2].Text);
             }
             SaveFile.Close();
         }//endwritepasswordfile
 
-        private void account_TextChanged(object sender, EventArgs e)
+        private void submitAccount_Click(object sender, EventArgs e)
         {
+            //variables for entering account
+            string givenAccount = accountInput.Text;
+            string givenUsername = usernameInput.Text;
+            string givenPassword = passwordInput.Text;
 
+            //new accountList item to add
+            ListViewItem accountItem = new ListViewItem(givenAccount);
+            accountItem.SubItems.Add(givenUsername);
+            accountItem.SubItems.Add(givenPassword);
+            //add item to list
+            accountList.Items.Add(accountItem);
+            writePasswordFile();
         }
     }
 }
