@@ -14,6 +14,7 @@ namespace HomeManager
         //main load
         private void main_Load(object sender, System.EventArgs e)
         {
+            // TODO: This line of code loads data into the 'modelDataSet.accountTable' table. You can move, or remove it, as needed.
             initializeToDoList();//loadtodolist
             initializeGroceryList();//loadgroclist
         }//endmainload
@@ -119,5 +120,6 @@ namespace HomeManager
             }
             writeGroceryFile();//write to do list to file
         }//enddeletegroc
+
     }
 }

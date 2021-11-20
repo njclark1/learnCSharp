@@ -42,7 +42,7 @@
             // passwords
             // 
             this.passwords.Location = new System.Drawing.Point(4, 359);
-            this.passwords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passwords.Margin = new System.Windows.Forms.Padding(4);
             this.passwords.Name = "passwords";
             this.passwords.Size = new System.Drawing.Size(129, 74);
             this.passwords.TabIndex = 0;
@@ -55,7 +55,7 @@
             this.toDo.CheckOnClick = true;
             this.toDo.FormattingEnabled = true;
             this.toDo.Location = new System.Drawing.Point(141, 26);
-            this.toDo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toDo.Margin = new System.Windows.Forms.Padding(4);
             this.toDo.Name = "toDo";
             this.toDo.Size = new System.Drawing.Size(414, 650);
             this.toDo.TabIndex = 1;
@@ -64,7 +64,7 @@
             // newToDo
             // 
             this.newToDo.Location = new System.Drawing.Point(590, 26);
-            this.newToDo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.newToDo.Margin = new System.Windows.Forms.Padding(4);
             this.newToDo.Name = "newToDo";
             this.newToDo.Size = new System.Drawing.Size(132, 22);
             this.newToDo.TabIndex = 2;
@@ -72,7 +72,7 @@
             // toDoSubmit
             // 
             this.toDoSubmit.Location = new System.Drawing.Point(590, 58);
-            this.toDoSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toDoSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.toDoSubmit.Name = "toDoSubmit";
             this.toDoSubmit.Size = new System.Drawing.Size(133, 43);
             this.toDoSubmit.TabIndex = 3;
@@ -83,7 +83,7 @@
             // deleteSelectedToDo
             // 
             this.deleteSelectedToDo.Location = new System.Drawing.Point(589, 176);
-            this.deleteSelectedToDo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.deleteSelectedToDo.Margin = new System.Windows.Forms.Padding(4);
             this.deleteSelectedToDo.Name = "deleteSelectedToDo";
             this.deleteSelectedToDo.Size = new System.Drawing.Size(133, 43);
             this.deleteSelectedToDo.TabIndex = 4;
@@ -147,7 +147,7 @@
             this.Controls.Add(this.toDo);
             this.Controls.Add(this.passwords);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1442, 946);
             this.MinimumSize = new System.Drawing.Size(1442, 946);

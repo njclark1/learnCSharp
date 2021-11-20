@@ -24,10 +24,10 @@ namespace HomeManager
         public bool CheckCredentials()
         {
             string correctUsername = "eandn";
-            string correctPassword = "pass";
+            string correctPassword = "0979";
             string givenUsername = usernameBox.Text;
             string givenPassword = passwordBox.Text;   
-            if (givenUsername != correctUsername && givenPassword != correctPassword)
+            if (givenUsername == correctUsername && givenPassword == correctPassword)
             {
                 return true;
             }
